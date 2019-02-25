@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.screen{
+	width: 80vh;
+	height: 80vh;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	background: red;
+	box-sizing: border-box;
+}
+.item{
+	float: left;
+	background: yellow;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	box-sizing: border-box;
+}
+.snake{
+	background: yellowgreen;
+}
+.head{
+	background: black;
+}
+.food{
+	background: pink;
+}
